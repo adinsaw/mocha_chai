@@ -8,7 +8,7 @@
     "tsc": "tsc",
     "tsc:w": "tsc -w",
     "typings": "typings",
-    "test": "karma start"
+    "test": "karma start karma.conf.js"
   },
   "license": "ISC",
   "dependencies": {
@@ -36,10 +36,12 @@
     "karma-chrome-launcher": "^1.0.1",
     "karma-jasmine": "^1.0.2",
     "karma-junit-reporter": "^1.0.0",
+    "karma-phantomjs-launcher": "^1.0.0",
     "karma-requirejs": "^1.0.0",
     "lite-server": "^2.2.0",
     "phantomjs": "^2.1.7",
     "requirejs": "^2.2.0",
+    "traceur": "0.0.111",
     "typescript": "^1.8.10",
     "typings": "^1.0.4"
   }
