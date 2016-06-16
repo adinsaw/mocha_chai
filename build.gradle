@@ -14,6 +14,9 @@ jar {
                    'Implementation-Version': version
     }
 }
+dependencies {
+   runtime files(org.gradle.internal.jvm.Jvm.current().toolsJar)
+}
 buildscript {
 	repositories {
 	  maven {
