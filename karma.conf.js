@@ -16,6 +16,7 @@ module.exports = function(config) {
     // list of files / patterns to load in the browser
     files: [
   //    {pattern: 'node_modules/es6-shim/es6-shim.min.js', included: true, watched: true},
+  {pattern: 'node_modules/node_modules/traceur/bin/traceur-runtime.js', included: true, watched: true},
       {pattern: 'node_modules/reflect-metadata/Reflect.js', included: true, watched: true},
       {pattern: 'node_modules/zone.js/dist/zone.js', included: true, watched: true},
       {pattern: 'node_modules/systemjs/dist/system.src.js', included: true, watched: true},
