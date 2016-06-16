@@ -8,7 +8,7 @@
     "tsc": "tsc",
     "tsc:w": "tsc -w",
     "typings": "typings",
-    "test": "karma run karma.conf.js --single-run true"
+    "test": "karma start"
   },
   "license": "ISC",
   "dependencies": {
